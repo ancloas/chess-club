@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../media/jon-tyson-SlntP-SLi0Q-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 60px 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.card {
+    background: rgba(0, 36, 78, 0.945);
+    border-radius: 15px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.5);
+    padding: 30px;
+    max-width: 90%;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 0 0 15px;
+    white-space: normal;
+    color: rgb(255, 102, 0);
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.coming-soon {
+    font-size: 1.6em;
+    background-color: rgb(255, 102, 0);
+    padding: 8px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 8px 0;
+}
+
+.free-highlight {
+    font-size: 1.4em;
+    color: #ffeb3b;
+    font-weight: bold;
+}
+
+ul {
+    text-align: left;
+    margin: 15px auto;
+    padding: 0;
+    list-style-type: none;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.cta {
+    margin: 30px 0; /* Adjusted for better spacing above and below */
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block; /* Center the button */
+}
+
+.cta:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px);
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: rgba(201, 232, 247, 0.9);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h2 {
+    color: #333;
+    text-align: center;
+}
+
+.modal input {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.modal .cta {
+    width: 100%;
+    background-color: #d38900; /* Green */
+    border: none;
+    color: rgb(121, 85, 85);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.modal .cta:hover {
+    background-color: #388e3c; /* Darker green */
+}
